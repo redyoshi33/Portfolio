@@ -10,19 +10,25 @@ import { NavbarComponent } from './navbar/navbar.component';
 
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { NgsRevealModule } from 'ng-scrollreveal';
+import { TwentyfourgameComponent } from './twentyfourgame/twentyfourgame.component';
+import { PokedexComponent } from './pokedex/pokedex.component';
+import { WeehComponent } from './weeh/weeh.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    TwentyfourgameComponent,
+    PokedexComponent,
+    WeehComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule.forRoot(),
     ScrollToModule.forRoot(),
-    NgsRevealModule.forRoot()
+    NgsRevealModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

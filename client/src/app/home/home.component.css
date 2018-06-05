@@ -6,7 +6,7 @@
  	max-width: 100%;
  	font-family: 'Open Sans', sans-serif;
 }
-.header-img { 
+#header-img { 
 	background-image: url('/assets/ocean1.jpeg');
 	max-width: 100%;
 	height: 650px;
@@ -36,6 +36,7 @@
 #profile_pic{
 	display: inline-block;
 	width: 100%;
+	height: 70%;
 	border-radius: 50%;
     object-fit: cover;
     margin-bottom: 10px;
@@ -62,13 +63,15 @@
     color: white;
 }
 #projects{
-	padding: 20px;
+	padding: 50px;
+	min-height: 630px;
 }
 .card {
 	border: 3px solid #007bff;
 	background-color: #F4F4F4;
 	border-radius: 10px;
 }
+
 #projects .card:hover {
 	-webkit-box-shadow: 0px 0px 10px 3px rgba(0,148,247,1);
 	-moz-box-shadow: 0px 0px 10px 3px rgba(0,148,247,1);
@@ -95,6 +98,10 @@
 	padding: 10px;
 	box-shadow: 2px 2px 2px #888888;
 }
+.pokedex-imgs img{
+	display: inline-block;
+	width: 45%
+}
 .header-img3 { 
 	background-image: url('/assets/skill.jpg');
 	max-width: 100%;
@@ -108,7 +115,7 @@
     color: white;
 }
 #skills{
-	padding: 20px;
+	padding: 50px;
 }
 .item-spacing{
 	margin: 10px 0px;
@@ -142,7 +149,7 @@
     color: white;
 }
 #experience{
-	padding: 20px 50px;
+	padding: 50px;
 	color: #00008e;
 }
 .exp-title h3{

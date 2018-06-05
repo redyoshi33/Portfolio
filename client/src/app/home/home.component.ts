@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,  } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,12 +7,34 @@ import { Component, OnInit } from '@angular/core';
 })
 	
 export class HomeComponent implements OnInit {
-	navbar = false
+
+  showcom = true;
+  game = false;
+  poke = false;
+  weeh = false;
+
   constructor() { }
 
   ngOnInit() {
   }
-  onScroll(){
-  	this.navbar = true
+
+  clickDetail24() {
+    this.showcom = false
+    this.game = true
   }
+  clickDetailPoke(){
+    this.showcom = false
+    this.poke = true
+  }
+  clickDetailWEEH(){
+    this.showcom = false
+    this.weeh = true
+  }
+  switchBack(){
+    this.showcom = true
+    this.game = false
+    this.poke = false
+    this.weeh = false
+  }
+
 }
