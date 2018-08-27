@@ -1,14 +1,17 @@
 <div class='row'>
 	<div class='projectwindow col-md-6 col-sm-12'>
-		<h2><a href="http://54.183.223.25/" target="_blank">24 Game</a></h2>
-		<p><strong>GitHub: </strong> <a href='https://github.com/redyoshi33/24cardgame' target="_blank">github.com/redyoshi33/24cardgame</a></p>
-		<p><strong>Technologies: </strong> Express.js, Node.js, Angular, Socket.io, Bootstrap </p>
-		<p><strong>Role: </strong>Worked independently, built the UI, game logic, and server to user connections.</p>
-		<p><strong>Description: </strong>A multiplayer web application game that uses socket.io, in which users compete to see who can make the value 24 using all 4 displayed numbers and the four basic operations of arithmetic (add, subtract, multiply, divide).</p>
+		<h2>24 Game</h2>
+		<p>Try it out: <a href="http://54.183.223.25/" target="_blank">http://54.183.223.25/</a></p>
+		<p><u>GitHub</u>: <a href='https://github.com/redyoshi33/24cardgame' target="_blank">github.com/redyoshi33/24cardgame</a></p>
+		<p><u>Technologies</u>:  Express.js, Node.js, Angular, Socket.io, Bootstrap </p>
+		<p><u>Role</u>: Worked independently, built the UI, game logic, and server to user connections.</p>
+		<p><u>Description</u>: This project was built in Javascript and uses Express.js, Node.js, Angular, Socket.io, and Bootstrap. The User Interface was built using Bootstrap and Angular, for displaying information and utilizing submit/click events. The back end uses a Node.js server component with an Express.js framework. Socket.io is used to update and transfer data in real-time between the server and multiple clients. The deck and user data are stored as objects that are transmitted using socket.io events. </p>
+		<p><u>Challenges</u>: 
+	     One challenge was how to compile the answer on the user side. I used the eval() function to compile the user’s equation, but if the given input doesn’t follow the specific guidelines of the eval() function, it’ll throw an error. For this reason, the inputs are restricted to clicking the cards and arithmetic buttons. If a card is clicked, other cards are disabled from being clicked until an arithmetic button is clicked and vice versa. This prevents users from submitting unexpected equations, while making the game more interactive by clicking the cards.</p>
 		<div class='align-btn'><button (click)="clickBack()">Back</button></div>
 	</div>
 	<div class='video col-md-6 col-sm-12'>
-		<iframe width="100%" height="315" src="https://www.youtube.com/embed/WC1hlFO55Y8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<iframe width="100%" height="400" src="https://www.youtube.com/embed/WC1hlFO55Y8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	</div>
 </div>
 

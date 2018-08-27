@@ -102,8 +102,8 @@
 	transform: translate(-50%);
 	margin-bottom: 10px;
 }
-.pokedex-imgs img{
-	width: 90%;
+#PokedexGIF{
+	width:60%;
 }
 .header-img3 { 
 	background-image: url('/assets/skill.jpg');
