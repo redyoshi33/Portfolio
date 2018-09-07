@@ -1,18 +1,26 @@
 .row{
 	padding: 20px;
-	border: 3px solid #007bff;
+	border: 3px solid #00a9ff;
 	border-radius: 10px;
 }
+.row:hover {
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(0,148,247,1);
+	-moz-box-shadow: 0px 0px 10px 3px rgba(0,148,247,1);
+	box-shadow: 0px 0px 10px 3px rgba(0,148,247,1);
+}
 .projectwindow{
-	color: #00008e;
+	color: #f6fdfe;
 	font-family: 'Open Sans', sans-serif;
 }
 .align-btn{
 	text-align: center;
 }
+.link{
+	color: #f6fdfe;
+}
 button{
 	margin: 10px 0px 30px;
-	background-color: #007bff;
+	background-color: #00a9ff;
 	border-radius: 10px;
 	color: white;
 	padding: 10px 20px;

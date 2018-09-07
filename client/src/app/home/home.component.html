@@ -11,7 +11,7 @@
 		</div>
 		<div class='col-lg-9 col-md-9 col-sm-10'>
 			<h1 class='aboutme-header'>About Me</h1>
-			<p class='aboutme-body'>Hello! I'm Ryan and I'm a software developer with proficiency in Javascript, Python, and Swift. I've always had an interest in coding and started learning on my own with small tasks like printing "Hello world!" After a bit of practice, I decided to take the next step expanding my knowledge and experience of the field, so I enrolled in Coding Dojo, where I learned to build various projects with front-end and back-end. Along with coding, I have a passion for research and data as I originally came from a scientific background, graduating UC Davis in 2015 with a Bachelor's of Science in Animal Biology and working in the CA Department of Fish and Wildlife. I want to combine both of my passions of data and programming and mack an impact on society. If you would like to learn more, please get in touch with me:</p>
+			<p class='aboutme-body'>Hello! I'm Ryan and I'm a software developer with proficiency in Javascript, Python, and Swift. I've always had an interest in coding and started learning on my own with small tasks like printing "Hello world!" After a bit of practice, I decided to take the next step expanding my knowledge and experience of the field, so I enrolled in Coding Dojo, where I learned to build various projects with front-end and back-end. Along with coding, I have a passion for research and data as I originally came from a scientific background, graduating UC Davis in 2015 with a Bachelor's of Science in Animal Biology and working in the CA Department of Fish and Wildlife. I want to combine both of my passions of data and programming and make an impact on society. If you would like to learn more, please get in touch with me:</p>
 			<div class='row' id='contact'>
 				<div class='col-md-3 col-sm-6'>
 					<a href="mailto:rayyoung@ucdavis.edu">
@@ -20,7 +20,7 @@
 					<h5>Email</h5>
 				</div>
 				<div class='col-md-3 col-sm-6'>
-					<a href="/assets/RyanYoungResume.pdf" target="_blank">
+					<a href="/assets/Ryan Young Resume.pdf" target="_blank">
 						<i class="fas fa-file fa-3x"></i>
 					</a>
 					<h5>Resume</h5>
@@ -51,8 +51,8 @@
 
 	<div *ngIf='showcom' class='row' ngsReveal>
 		<div class='col-lg-4 col-md-6 col-sm-12 item-spacing'>
-			<div class='card h-100'>
-				<div class='project-card' (click)="clickDetailWEEH()">
+			<div class='card h-100' (click)="clickDetailWEEH()">
+				<div class='project-card'>
 					<h3>Where Eat, Eat Here</h3>
 					<img src="/assets/WEEH GIF.gif" alt='WEEH gif'>
 					<p>A restaurant finding web application that allows users to create a profile and add other users as friends. Users can then create groups that use multiple user preferences to select a restaurant.</p>
@@ -61,8 +61,8 @@
 			</div>
 		</div>
 		<div class='col-lg-4 col-md-6 col-sm-12 item-spacing'>
-			<div class='card h-100'>
-				<div class='project-card' (click)="clickDetailPoke()">
+			<div class='card h-100' (click)="clickDetailPoke()">
+				<div class='project-card'>
 					<h3>Pokedex Trivia</h3>
 					<div class='pokedex-imgs'>
 						<img id="PokedexGIF"src="/assets/Pokedex GIF.gif" alt='Pokedex Trivia gif'>
@@ -73,8 +73,8 @@
 			</div>
 		</div>
 		<div class='col-lg-4 col-md-6 col-sm-12 item-spacing'>
-			<div class='card h-100'>
-				<div class='project-card' (click)="clickDetail24()">
+			<div class='card h-100' (click)="clickDetail24()">
+				<div class='project-card'>
 					<h3>24 Game</h3>
 					<img src="/assets/24Game GIF.gif" alt='24 Game gif'>
 					<p>A multiplayer web application game that utilizes socket.io, in which users can compete to see who can make the value 24 using all 4 displayed numbers and the four basic operations of arithmetic (add, subtract, multiply, divide).</p>
@@ -198,9 +198,8 @@
 					</div>
 					<div class='exp-body'>
 						<ul>
-							<li>Processed biological samples collected from San Francisco Estuary using a dissecting microscope. Identified species and sex for shrimp species found in the bay and recorded data onto Microsoft Access.</li>
-							<li>Assisted with sample collection on a research vessel each month. Worked with the field crew to set and retrieve the midwater net and otter trawl, measure and identify fish and invertebrate species, and record environmental parameters.</li>
-							<li>Trained and managed new hires, while revamping the protocol for processing biological samples.</li>
+							<li>Worked with a field crew of 5-6 people to collect biological samples from the San Francisco Estuary year round. Recorded data and managed the population monitoring database that multiple environmental groups throughout the state relied on.</li>
+							<li>Achieved a reduction of 30% in training time for new recruits by revamping protocols for processing biological samples.</li>
 						</ul>
 					</div>
 				</div>
@@ -234,7 +233,7 @@
 					</div>
 					<div class='exp-body'>
 						<ul>
-							<li>Collaborated with lab members to perform swimming and behavioral experiments on green sturgeon, including constructing experiment protocols and recording data through Excel.</li>
+							<li>Collaborated with lab members to perform swimming and behavioral experiments on green sturgeon, including constructing experiment protocols and recording data through Excel and R.</li>
 							<li>Utilized critical-thinking and observation skills to analyze experimental data and write up scientific papers for publishing. </li>
 						</ul>
 					</div>
@@ -247,7 +246,7 @@
 	<h1>CONTACT</h1>
 </div>
 <div class='container'>
-	<div class='row' id='contact' ngsReveal>
+	<div class='row' id='ender' ngsReveal>
 		<div class='col-md-4 col-sm-12'>
 			<a href="mailto:rayyoung@ucdavis.edu">
 				<i class="fas fa-envelope fa-2x"></i>

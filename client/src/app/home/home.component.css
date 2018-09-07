@@ -1,5 +1,5 @@
 .container{
-	background: #F4F4F4;
+	background: #1352a2;
 	margin: 0px;
 	padding: 0px;
 	height: 100%;
@@ -30,7 +30,7 @@
 #aboutme{
 	width: 100%;
 	padding: 50px 50px 20px;
-	color: #00008e;
+	color: #f6fdfe;
 	font-size: 16px;
 }
 #profile_pic{
@@ -47,8 +47,13 @@
 .aboutme-body{
 	line-height: 2;
 }
+i{
+	color: #f6fdfe;
+}
 #contact{
 	text-align: center;
+	padding: 20px 50px;
+	color: #f6fdfe;
 }
 .header-img2 { 
 	background-image: url('/assets/project2.jpg');
@@ -67,8 +72,8 @@
 	min-height: 630px;
 }
 .card {
-	border: 3px solid #007bff;
-	background-color: #F4F4F4;
+	border: 3px solid #00a9ff;
+	background-color: #1352a2;
 	border-radius: 10px;
 	margin-bottom: 30px;
 }
@@ -80,7 +85,7 @@
 }
 .project-card {
 	padding: 0px 20px 15px;
-	color: #00008e;
+	color: #f6fdfe;
 	text-align: center;
 	margin: 10px 0px;
 }
@@ -92,7 +97,7 @@
 	text-align: left;
 }
 .project-card button{
-	background-color: #007bff;
+	background-color: #00a9ff;
 	border-radius: 10px;
 	color: white;
 	padding: 10px;
@@ -127,11 +132,11 @@
 	text-align: center;
 	padding-top: 10px;
 	border-radius: 10px;
-	color: #00008e;
+	color: #f6fdfe;
 	margin: 10px 5px;
 }
 .skill-head{
-	border-bottom: 3px solid #007bff;
+	border-bottom: 3px solid #00a9ff;
 }
 .skill-body{
 	padding: 10px;
@@ -153,7 +158,7 @@
 }
 #experience{
 	padding: 50px;
-	color: #00008e;
+	color: #f6fdfe;
 }
 .exp-title h3{
 	font-weight: bolder;
@@ -171,23 +176,24 @@
     padding: 75px;
     color: white;
 }
-#contact{
+#ender{
+	text-align: center;
 	padding: 20px 50px;
+	color: #f6fdfe;
 }
 .exp-card{
 	padding-top: 10px;
 	border-radius: 10px;
-	color: #00008e;
+	color: #f6fdfe;
 	margin: 10px 5px;
 }
 .exp-head{
-	border-bottom: 3px solid #007bff;
+	border-bottom: 3px solid #00a9ff;
 	text-align: center;
 }
 .exp-body{
 	padding: 10px;
 }
-
 
 
 
