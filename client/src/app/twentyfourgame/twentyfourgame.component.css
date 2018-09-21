@@ -12,6 +12,9 @@
 	color: #f6fdfe;
 	font-family: 'Open Sans', sans-serif;
 }
+p{
+	font-weight: lighter;
+}
 .align-btn{
 	text-align: center;
 }
