@@ -49,11 +49,21 @@
 	<h1>PROJECTS</h1>
 </div>
 <div class="container" id='projects'>
-	<div *ngIf='game' ngsReveal><app-twentyfourgame (BackEventEmitter)='switchBack()'></app-twentyfourgame></div>
+	<div *ngIf='straw' ngsReveal><app-strawnimals (BackEventEmitter)='switchBack()'></app-strawnimals></div>
 	<div *ngIf='poke' ngsReveal><app-pokedex (BackEventEmitter)='switchBack()'></app-pokedex></div>
 	<div *ngIf='weeh' ngsReveal><app-weeh (BackEventEmitter)='switchBack()'></app-weeh></div>
 
 	<div *ngIf='showcom' class='row' ngsReveal>
+		<div class='col-lg-4 col-md-6 col-sm-12 item-spacing'>
+			<div class='card h-100' (click)="clickDetailStraw()">
+				<div class='project-card'>
+					<h3>Strawnimals</h3>
+					<img src="/assets/Strawnimals crop.gif" alt='Strawnimals gif'>
+					<p>An e-commerce website that allows users to buy straw animal figures that I've made using straws and boba straws. Admins are able to add and edit products and change the status of the orders.</p>
+					<button>More Details</button>
+				</div>
+			</div>
+		</div>
 		<div class='col-lg-4 col-md-6 col-sm-12 item-spacing'>
 			<div class='card h-100' (click)="clickDetailWEEH()">
 				<div class='project-card'>
@@ -72,16 +82,6 @@
 						<img id="PokedexGIF"src="/assets/Pokedex GIF.gif" alt='Pokedex Trivia gif'>
 					</div>
 					<p>A trivia iOS application that uses the Pokemon API to pull a description about a random Pokemon and allows the user to guess which Pokemon it is. Users can score points and place on a local score board.</p>
-					<button>More Details</button>
-				</div>
-			</div>
-		</div>
-		<div class='col-lg-4 col-md-6 col-sm-12 item-spacing'>
-			<div class='card h-100' (click)="clickDetail24()">
-				<div class='project-card'>
-					<h3>24 Game</h3>
-					<img src="/assets/24Game GIF.gif" alt='24 Game gif'>
-					<p>A multiplayer web application game that utilizes socket.io, in which users can compete to see who can make the value 24 using all 4 displayed numbers and the four basic operations of arithmetic (add, subtract, multiply, divide).</p>
 					<button>More Details</button>
 				</div>
 			</div>

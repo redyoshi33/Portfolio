@@ -12,7 +12,8 @@ import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { NgsRevealModule } from 'ng-scrollreveal';
 import { TwentyfourgameComponent } from './twentyfourgame/twentyfourgame.component';
 import { PokedexComponent } from './pokedex/pokedex.component';
-import { WeehComponent } from './weeh/weeh.component'
+import { WeehComponent } from './weeh/weeh.component';
+import { StrawnimalsComponent } from './strawnimals/strawnimals.component'
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { WeehComponent } from './weeh/weeh.component'
     TwentyfourgameComponent,
     PokedexComponent,
     WeehComponent,
+    StrawnimalsComponent,
   ],
   imports: [
     BrowserModule,

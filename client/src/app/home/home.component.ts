@@ -9,19 +9,20 @@ import { Component, OnInit,  } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   showcom = true;
-  game = false;
+  //game = false;
   poke = false;
   weeh = false;
+  straw = false;
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  clickDetail24() {
-    this.showcom = false
-    this.game = true
-  }
+  // clickDetail24() {
+  //   this.showcom = false
+  //   this.game = true
+  // }
   clickDetailPoke(){
     this.showcom = false
     this.poke = true
@@ -30,11 +31,16 @@ export class HomeComponent implements OnInit {
     this.showcom = false
     this.weeh = true
   }
+  clickDetailStraw(){
+    this.showcom = false
+    this.straw = true
+  }
   switchBack(){
     this.showcom = true
-    this.game = false
+    //this.game = false
     this.poke = false
     this.weeh = false
+    this.straw = false
   }
 
 }
